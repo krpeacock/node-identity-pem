@@ -12,7 +12,6 @@ rawKey;
 
 const rawBuffer = Uint8Array.from(rawKey).buffer;
 
-let view = new DataView(rawBuffer); //?
 
 rawBuffer.byteLength; //?
 
